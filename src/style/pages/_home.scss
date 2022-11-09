@@ -1,3 +1,36 @@
-// .home_wrapper{
-//     position: absolute;
-// }
+.home_wrapper{
+    padding: 20px 20px 20px 225px;
+
+    &_total {
+        @include flex_center;
+        justify-content: space-around;
+        max-width: 100% ;
+        min-height: 150px ;
+        padding: 15px 0;
+        margin-bottom: 30px;
+
+        &_item {
+            @include default_content_box($dasboard_item_background_color);
+
+            & .item_title {
+                color: $white_color;
+                font-size: 1rem;
+            }
+
+            & .item_value {
+                color: $white_color;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    &_chart {
+        @include flex_center;
+        width: 100%;
+        height: 350px;
+        background-color: rgb(231, 231, 231) ;
+        border-radius: 10px;
+    }
+
+
+}

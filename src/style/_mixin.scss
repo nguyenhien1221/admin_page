@@ -1,6 +1,14 @@
-
 @mixin flex_center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin default_content_box($background_color) {
+  @include flex_center;
+  flex-direction: column;
+  width: calc((100% - 30px) / 4);
+  min-height: 150px;
+  border-radius: 10px;
+  background-color: $background_color;
 }

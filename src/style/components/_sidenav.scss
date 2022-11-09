@@ -6,7 +6,7 @@
   margin: 0 25px 0 0;
   height: 100vh;
   width: 200px;
-  background-color: antiquewhite;
+  background-color: $sidenav_background_color;
   float: left;
 
   &_control {
@@ -18,8 +18,9 @@
       height: 30px;
       width: 100%;
       margin-bottom: 10px;
-
+      
       & a {
+        color: $sidenav_text_color;
         display: block;
         transition: 0.3s;
         font-size: 1.1rem;
