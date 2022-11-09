@@ -9,6 +9,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   background-color: white;
   color: black;
@@ -175,6 +176,20 @@ a {
 .users_wrapper_table .table_btn:hover {
   cursor: pointer;
   background-color: rgb(253, 126, 126);
+}
+
+.scroll_wrapper {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(173, 173, 173);
+  border-radius: 50%;
+  padding: 10px 15px;
+  color: white;
+  font-weight: 400;
+}
+.scroll_wrapper:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

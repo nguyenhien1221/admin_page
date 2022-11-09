@@ -1,0 +1,15 @@
+.scroll_wrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(173, 173, 173);
+    border-radius: 50%;
+    padding: 10px 15px;
+    
+    color: $white_color;
+    font-weight: 400;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
