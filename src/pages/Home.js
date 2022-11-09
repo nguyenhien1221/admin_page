@@ -50,6 +50,7 @@ const Home = () => {
 
   return (
     <div className="home_wrapper">
+      <p className='home_wrapper_title'>Dashboard</p> 
       <div className="home_wrapper_total">
         <div className="home_wrapper_total_item">
           <p className="item_title">Tổng số CV</p>

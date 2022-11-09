@@ -103,6 +103,9 @@ a {
 .home_wrapper {
   padding: 20px 20px 20px 225px;
 }
+.home_wrapper_title {
+  font-size: 2rem;
+}
 .home_wrapper_total {
   display: flex;
   justify-content: center;
