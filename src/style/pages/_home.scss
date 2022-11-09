@@ -28,7 +28,7 @@
         @include flex_center;
         width: 100%;
         height: 350px;
-        background-color: rgb(231, 231, 231) ;
+        background-color: $chart_background_color ;
         border-radius: 10px;
     }
 

@@ -1,0 +1,35 @@
+.users_wrapper {
+    padding: 20px 20px 20px 225px;
+
+    &_title {
+        font-size: 2rem;
+    }
+
+    &_table {
+        @include flex_center;
+        align-items: flex-start;
+        background-color: $chart_background_color;
+        border-radius: 10px;
+        min-height: 500px;
+        padding: 20px;
+
+        & .table {
+            width: 100%;
+            max-height: 450px;
+
+            &_btn {
+                border: none;
+                border-radius: 4px;
+                color: $white_color;
+                font-size: 1rem;
+                padding: 3px 6px;
+                background-color: $delete_backgroundcolor;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: $delete_backgroundcolor_hover;
+                }
+            }
+        }
+    }
+}
